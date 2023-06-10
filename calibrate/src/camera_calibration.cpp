@@ -118,6 +118,7 @@ public:
                     inputType = VIDEO_FILE;
             }
             if (inputType == CAMERA)
+                std::cout <<"calibrate mode is  CAMREA" << std::endl;
                 inputCapture.open(cameraID);
             if (inputType == VIDEO_FILE)
                 inputCapture.open(input);
